@@ -1,0 +1,20 @@
+{
+  "name": "01_project_line_firebase_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "read_firebase.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node read_firebase.js"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase": "^7.17.1",
+    "firebase-admin": "^9.0.0",
+    "mongod": "^2.0.0",
+    "nodemon": "^2.0.4"
+  }
+}
