@@ -52,7 +52,7 @@ app.get('/', function(req, res) {
       console.log(snap.val());
       res.send(snap.val());
     });
-})
+});
 
 
 app.listen(3000)
